@@ -10,14 +10,14 @@ export default function Home() {
 
   return (
     <main className='justify-center mx-2 items-center flex'>
-      <div className='flex my-2 mb-24 justify-center  flex-col lg:flex-row lg:flex-wrap gap-2'>
+      <div className='flex my-2 mb-24 justify-center  flex-col lg:flex-row lg:flex-wrap gap-3'>
         {
           territorios.map((e, i) => {
             return <CardLamina key={i} id={i + 1} />
           })
         }
       </div>
-      <NavBar />
+      {/* <NavBar /> */}
     </main>
   )
 }
