@@ -5,4 +5,5 @@ export interface Territorio {
     casas: number
     folhas: number
     observacao?: string
+    numberOfFiles: number
 }
