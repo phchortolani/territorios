@@ -24,7 +24,7 @@ export default function Info({ params }: params) {
 
 
     useEffect(() => {
-        if (TerritorioData?.id) {
+        if (TerritorioData?.numberOfFiles) {
             setSlide({ ...slide, totalSlides: TerritorioData.numberOfFiles + 1 })
         }
     }, [TerritorioData])
